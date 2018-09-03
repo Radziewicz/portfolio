@@ -1,0 +1,49 @@
+.section_header {
+  text-align: center;
+  position: relative;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.section_header h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #252525;
+  margin: 0;
+  padding: 0;
+}
+
+.section_header h2::before {
+  content: "";
+  height: 2px;
+  left: 0%;
+  margin-top: 20px;
+  position: absolute;
+  width: 39%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+.section_header h2::after {
+  content: "";
+  height: 2px;
+  right: 0%;
+  margin-top: 20px;
+  position: absolute;
+  width: 39%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+@media only screen and (max-width: 780px) {
+  .section_header h2 {
+    font-size: 24px;
+  }
+  .section_header h2::before {
+    margin-top: 14px;
+    width: 22%;
+  }
+
+  .section_header h2::after {
+    margin-top: 14px;
+    width: 22%;
+  }
+}

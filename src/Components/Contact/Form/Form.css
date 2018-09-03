@@ -1,0 +1,66 @@
+form {
+  padding: 50px 5%;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-row-gap: 40px;
+  grid-template-areas:
+    "input-1"
+    "input-2"
+    "textarea"
+}
+
+.area1 {
+  grid-area: input-1;
+}
+
+.area2 {
+  grid-area: input-2;
+}
+input {
+  min-height: 20px;
+  padding-left: 10px;
+}
+
+textarea {
+  min-height: 100px;
+  padding-left: 10px;
+  grid-area: textarea;
+}
+
+.btn {
+  grid-column: span 2;
+  margin: 0 auto;
+}
+
+.border {
+  border-bottom: 2px solid #898989;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+form input:focus, textarea:focus{
+  box-shadow: none;
+  outline: none;
+  border-bottom: 3px solid #000;
+}
+
+
+@media only screen and (min-width: 800px) {
+  form {
+    padding: 50px 0;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    grid-template-areas:
+      "input-1 input-2"
+      "textarea textarea"
+  }
+  textarea {
+    min-height: 200px;
+  }
+
+  input {
+    min-height: 60px;
+  }
+}

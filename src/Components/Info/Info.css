@@ -1,0 +1,11 @@
+.infoboxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top: 2px solid rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (min-width: 780px) {
+  .infoboxes {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

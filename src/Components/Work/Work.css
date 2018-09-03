@@ -1,0 +1,67 @@
+.work {
+  background-color: #f0f0f0;
+}
+
+.wrapper_work {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 5% 60px 5%;
+}
+
+.mockup img {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
+  padding-bottom: 30px;
+}
+
+.project_des {
+  display: inline-grid;
+  text-align: left;
+  align-content: center;
+}
+
+.project_des p {
+  font-size: 12px;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.project_des h5 {
+  font-size: 11px;
+  line-height: 0.5;
+  padding-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 100px;
+  }
+  .project_des p {
+    font-size: 14px;
+  }
+  .project_des h5 {
+    font-size: 12px;
+  }
+  .right {
+    order: 2;
+  }
+}
+
+.gap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  padding-top: 20px;
+}
+
+span {
+  font-weight: bold;
+}

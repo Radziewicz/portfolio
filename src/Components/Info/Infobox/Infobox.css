@@ -1,0 +1,29 @@
+
+.info_title {
+  font-weight: light;
+  font-size: 12px;
+}
+
+.info_description {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.infobox {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+
+@media only screen and (min-width: 780px) {
+  .infobox {
+      text-align: left;
+  }
+  .info_title {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  .info_description {
+    font-size: 18px;
+  }
+}

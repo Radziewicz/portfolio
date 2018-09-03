@@ -1,0 +1,20 @@
+.wrapper_contact {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 650px) {
+  .contact {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    font-size: 16px;
+  }
+}

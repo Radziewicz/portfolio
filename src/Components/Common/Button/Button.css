@@ -1,0 +1,18 @@
+.button {
+  color: #252525;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #252525;
+  text-align: center;
+}
+
+.button:hover {
+  background: #252525;
+  color: rgb(240, 240, 240);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}

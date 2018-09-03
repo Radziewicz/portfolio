@@ -1,0 +1,39 @@
+#about {
+  padding-bottom: 40px;
+}
+
+.about_description {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 30px;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 5%;
+}
+
+@media only screen and (min-width: 780px) {
+  .about_description {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    font-size: 14px;
+  }
+}
+
+.about_box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 40px;
+}
+
+
+@media only screen and (min-width: 900px) {
+  .about_box {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about_description {
+    padding: 40px 0;
+  }
+}
