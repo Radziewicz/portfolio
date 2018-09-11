@@ -12,14 +12,11 @@
 .copyright {
   padding-top: 10px;
   color: #979797;
-  text-align: left;
+  text-align: center;
 }
 
 @media only screen and (min-width: 800px) {
   .footer {
   font-size: 13px;
-  }
-  .copyright {
-    text-align: center;
   }
 }

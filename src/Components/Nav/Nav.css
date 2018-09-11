@@ -3,7 +3,7 @@ header {
   display: grid;
   grid-template-columns: 20% auto;
   height: 60px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.19);
+  border-bottom: 1px solid rgb(	37, 37, 37);;
   padding: 0 5%;
 }
 

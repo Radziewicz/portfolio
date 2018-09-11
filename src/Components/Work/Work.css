@@ -24,6 +24,7 @@
   display: inline-grid;
   text-align: left;
   align-content: center;
+  text-align: center;
 }
 
 .project_des p {
@@ -44,6 +45,10 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 100px;
   }
+  .project_des {
+    text-align: left;
+  }
+
   .project_des p {
     font-size: 14px;
   }
