@@ -4,7 +4,6 @@ import Nav from "../Nav/Nav";
 import Button from "../Common/Button/Button";
 import Flip from 'react-reveal/Flip';
 import './cv.pdf';
-import bg from './bg.jpg';
 
 export const Hero = () => (
   <div className="parallax">
