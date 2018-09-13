@@ -1,7 +1,8 @@
 .infoboxes {
   display: grid;
   grid-template-columns: 1fr;
-  border-top: 1px solid rgb(	37, 37, 37);;
+  border-top: 1px solid rgb(	37, 37, 37);
+  padding: 30px 0;
 }
 
 @media only screen and (min-width: 780px) {
@@ -11,5 +12,5 @@
 }
 
 .dusky {
-  background-color: #f0f0f0;
+  background-color: #d2d0d5;
 }

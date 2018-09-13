@@ -13,12 +13,12 @@ export const Contact = () => (
 
   <ScrollableAnchor id={'contact'}>
     <div className="wrapper">
-      <Header header="Kontakt" />
+      <Header header="Contact" />
       <div className="wrapper_contact">
         <div className="contact box_block">
           <Slide bottom>
             <Box
-              title="TELEFON"
+              title="PHONE"
               content="732 187 206"
               img={icon5}
             />
@@ -28,8 +28,8 @@ export const Contact = () => (
               img={icon6}
             />
             <Box
-              title="ADRES"
-              content="Polska, Warszawa"
+              title="ADRESS"
+              content="Poland, Warsaw"
               img={icon7}
             />
           </Slide>

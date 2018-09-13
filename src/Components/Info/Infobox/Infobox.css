@@ -11,13 +11,13 @@
 
 .infobox {
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 @media only screen and (min-width: 780px) {
   .infobox {
-      text-align: left;
+    text-align: left;
   }
   .info_title {
     font-size: 14px;

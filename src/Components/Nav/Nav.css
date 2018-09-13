@@ -3,7 +3,7 @@ header {
   display: grid;
   grid-template-columns: 20% auto;
   height: 60px;
-  border-bottom: 1px solid rgb(	37, 37, 37);;
+  border-bottom: 1px solid rgb(	37, 37, 37);
   padding: 0 5%;
 }
 
@@ -30,9 +30,7 @@ ul li a {
 }
 
 a:hover {
-  color: rgb(240, 240, 240);
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 780px) {

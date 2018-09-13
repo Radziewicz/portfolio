@@ -9,11 +9,11 @@ import Flip from 'react-reveal/Flip';
 export const Footer = () => (
   <div className="footer">
     <Flip left cascade><div className="icons">
-      <a href="#"><img src={linkedin} alt="linkedin icon" /></a>
+      <a href="https://www.linkedin.com/in/tomasz-radziewicz-1a5a9a16b/"><img src={linkedin} alt="linkedin icon" /></a>
       <a href="https://github.com/Radziewicz"><img src={github} alt="github icon" /></a>
     </div></Flip>
     <div className="copyright">
-      <p>Copyright &copy; Tipton 2018. All righrs reserved</p>
+      <p>© Tomasz Radziewicz 2018</p>
     </div>
   </div>
 );
