@@ -39,11 +39,11 @@
   }
   .section_header h2::before {
     margin-top: 16px;
-    width: 22%;
+    width: 18%;
   }
   .section_header h2::after {
     margin-top: 16px;
-    width: 22%;
+    width: 18%;
   }
   .wrapper-header {
     padding: 0 5%;

@@ -13,7 +13,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 export const About = () => (
   <ScrollableAnchor id={'about'}>
-    <section className="wrapper">
+    <section className="about wrapper">
       <Header header="About Me" />
       <Slide bottom cascade><div className="about_description">
         <p className="text">Jestem samoukiem, jednak kierunek nauki nadaje mi doświadczony programista. Swoją edukację w kierunku programowania zaczałem od kursów ze stron internetowych a obecnie robię swoje pierwsze komercyjne zlecenia.</p>
