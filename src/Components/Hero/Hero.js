@@ -11,12 +11,13 @@ export const Hero = () => (
         <Nav />
         <div className="hero_ele">
           <Flip left cascade>
-            <p className="prof">WELCOME. I AM</p>
+            <p className="prof">Witaj, nazywam się</p>
             <h1 className="name">Tomek Radziewicz</h1>
             <p className="prof">Junior frontend developer.</p>
           </Flip>
           <div className="content_download">
-              <a href="./Tomasz-Radziewicz-CV.pdf" className="button" download >Download CV</a>
+              <a href="./Tomasz-Radziewicz-CV.pdf" className="button" download >Pobierz CV
+            </a>
           </div>
         </div>
       </div>

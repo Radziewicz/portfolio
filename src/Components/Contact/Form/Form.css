@@ -41,9 +41,8 @@ textarea {
 }
 
 form input:focus, textarea:focus{
-  box-shadow: none;
+  box-shadow: 0 1px 0 0 #000;
   outline: none;
-  border-bottom: 2px solid #000;
 }
 
 

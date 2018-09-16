@@ -7,9 +7,9 @@ export const Nav = () => (
         <a href="" id="top" className="logo">`TR`</a>
         <nav className="">
           <ul>
-            <li><a href="#about" className="link">About</a></li>
-            <li><a href="#work" className="link">Work</a></li>
-            <li><a href="#contact" className="link">Contact</a></li>
+            <li><a href="#about" className="link">O mnie</a></li>
+            <li><a href="#work" className="link">Projekty</a></li>
+            <li><a href="#contact" className="link">Kontakt</a></li>
           </ul>
         </nav>
     </header>

@@ -10,12 +10,14 @@
 
 .prof {
   font-size: 14px;
+  padding-bottom: 10px;
 }
 
 .name {
   font-size: 22px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
+
 
 .content_download {
   padding-top: 50px;
@@ -33,10 +35,10 @@
 
 @media only screen and (min-width: 1200px) {
   .name {
-    font-size: 70px;
+    font-size: 60px;
   }
   .prof  {
-    font-size: 40px;
+    font-size: 35px;
   }
   .hero_ele {
     padding: 0;
