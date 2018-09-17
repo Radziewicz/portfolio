@@ -3,7 +3,6 @@ import "./Hero.css";
 import Nav from "../Nav/Nav";
 import Button from "../Common/Button/Button";
 import Flip from 'react-reveal/Flip';
-import './Tomasz-Radziewicz-CV.pdf';
 
 export const Hero = () => (
     <div className="bg">
@@ -16,7 +15,7 @@ export const Hero = () => (
             <p className="prof">Junior frontend developer.</p>
           </Flip>
           <div className="content_download">
-              <a href="./Tomasz-Radziewicz-CV.pdf" className="button" download >Pobierz CV
+              <a href={`${process.env.PUBLIC_URL}/Tomasz-Radziewicz-CV.pdf`} className="button" download >Pobierz CV
             </a>
           </div>
         </div>
