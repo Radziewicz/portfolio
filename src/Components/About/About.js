@@ -18,7 +18,7 @@ export const About = () => (
       <Slide bottom cascade><div className="about_description">
         <p className="text">Jestem samoukiem, jednak kierunek nauki nadaje mi doświadczony programista. Swoją edukację w programowania zacząłem od kursów ze stron internetowych natomiast teraz robię swoje pierwsze, komercyjne zlecenia.</p>
         <p className="text">Od samego początku postawiłem na jakość. Dobre praktyki oraz dobór odpowiednich metod to dla mnie priorytet. Szczególną uwagę przykładam do czytelności kodu a także do lekkości strony. Pojęcie "pixel perfect" nie jest mi obojętne.</p>
-        <p className="text">Obecnie najbardziej skoncentrowany jestem na nauce języka java script. Uczę się go rownolegle z react i gatsby. Dzień zaczynam od wizyty na www.csswinner.com a wolnych czasie ćwiczę kalistenikę lub gram w World of Warcraft.</p>
+        <p className="text">Obecnie najbardziej skoncentrowany jestem na nauce języka java script. Uczę się go rownolegle z React i Gatsby. Dzień zaczynam od wizyty na www.csswinner.com a w wolnym czasie ćwiczę kalistenikę.</p>
       </div></Slide>
       <div className="about_box box_block">
       <Slide bottom ><Box

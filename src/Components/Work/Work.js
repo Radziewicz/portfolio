@@ -21,7 +21,7 @@ export const Work = () => (
               <img src={mockup3} />
             </picture>
             <div className="project_des">
-              <p>Do zbudowania mojego pierwszego komercyjnego zlecenia użyłem <span>flexbox</span>'a. Klasy nazywałem według metodologii <span>BEM</span> natomiast przy stylowaniu wykorzystałem preprocesor <span>SASS</span>. Aby "ożywić" stronę zastosowałem skrypty z <span>jquery</span>.</p>
+              <p>Do zbudowania mojego pierwszego komercyjnego zlecenia użyłem <span>flexbox</span>'a. Klasy nazywałem według metodologii <span>BEM</span> natomiast przy stylowaniu wykorzystałem preprocesor <span>SASS</span>. Aby "ożywić" stronę zastosowałem skrypty <span>jquery</span>.</p>
               <div className="gap">
                 <Button link="https://github.com/Radziewicz/Fruitlead" text="Code"/>
                 <Button link="http://fruitlead.eu/" text="Live"/>
@@ -34,7 +34,7 @@ export const Work = () => (
               <img src={mockup4} />
             </picture>
             <div className="project_des">
-              <p>Swoje portfolio zbudowałem na bazie <span>create react app</span>, aby przy okazji pisania móc jednocześnie uczyć się reacta. Do tworzenia strony użyłem <span>CSS Grid</span>. Pisząc kod od razu wykorzystywałem standard java script <span>ES5</span>.</p>
+              <p>Swoje portfolio oparłem o bibliotekę <span>ReactJS</span>. Do tworzenia strony użyłem <span>CSS Grid</span>. Pisząc kod od razu wykorzystywałem standard java script <span>ES6</span>.</p>
                 <div className="gap">
                   <Button link="https://github.com/Radziewicz/portfolio" text="Code"/>
                   <Button link="http://tomasz-radziewicz.pl/" text="Live"/>
